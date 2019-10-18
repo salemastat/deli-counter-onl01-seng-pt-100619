@@ -27,4 +27,3 @@ def line(katz_deli)
 
 
 end
-© 2019 GitHub, Inc.
