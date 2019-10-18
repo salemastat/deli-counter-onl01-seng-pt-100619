@@ -19,7 +19,7 @@ def line(katz_deli)
     message="The line is currently:"
 
     katz_deli.each_with_index do |value, index|
-      message += " #{index}. #{value}"
+      message += " #{index.to_i+1}. #{value}"
     end
 
     puts "#{message}"
@@ -27,3 +27,4 @@ def line(katz_deli)
 
 
 end
+© 2019 GitHub, Inc.
